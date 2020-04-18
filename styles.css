@@ -19,7 +19,7 @@
 
 body {
 	background-color: grey;
-	font-family: Georgia;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 20px;
 	color: white;
 	text-shadow: 1px 1px black;
@@ -68,10 +68,28 @@ li a {
 	margin: 0px;
 }
 
+.inactive:hover {
+	background-color: #383838;
+	color: green;
+	
+	transition: all .4s ease;
+	-webkit-transition: all .4s ease;
+}
+
 .active {
-  background-color: white;
-  color: black;
+	background-color: white;
+	color: black;
   
-  margin: 0px;
+	margin: 0px;
+}
+
+.spoiler {
+		background-color: black;
+		color: black;
+}
+
+.spoiler:hover {
+		color: white;
+		text-shadow: 1px 1px gray;
 }
 	
