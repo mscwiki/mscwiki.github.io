@@ -68,9 +68,13 @@ li a {
 	margin: 0px;
 }
 
+.inactive {
+	transition: all .4s ease;
+	-webkit-transition: all .4s ease;
+}
+
 .inactive:hover {
-	background-color: #383838;
-	color: green;
+	background-color: rgb(230,230,230);
 	
 	transition: all .4s ease;
 	-webkit-transition: all .4s ease;
