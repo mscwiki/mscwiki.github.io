@@ -18,7 +18,11 @@
 
 
 body {
-	background-color: grey;
+	background-image: url(images/dont.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	
 	font-family: 'Open Sans', sans-serif;
 	font-size: 20px;
 	color: white;
@@ -51,7 +55,7 @@ ul {
 	list-style-type: none;
 	margin: 0px;
 	padding: 0px;
-	width: 200px;
+	width: 10%;
 	background-color: silver;
 	
 	position: fixed;
@@ -90,10 +94,24 @@ li a {
 .spoiler {
 		background-color: black;
 		color: black;
+		
+		transition: all .4s ease;
+		-webkit-transition: all .4s ease;
 }
 
 .spoiler:hover {
 		color: white;
 		text-shadow: 1px 1px gray;
+		
+		transition: all .4s ease;
+		-webkit-transition: all .4s ease;
+}
+
+.mod {
+		text-decoration: none;
+}
+
+.mod:hover {
+		color: lime;
 }
 	
