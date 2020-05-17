@@ -51,7 +51,7 @@ body {
 	overflow-x: hidden;
 }
 
-ul {
+ul.nav {
 	list-style-type: none;
 	margin: 0px;
 	padding: 0px;
@@ -136,6 +136,11 @@ figure {
 
 figcaption {
 		color: lime;
+		text-shadow: 2px 2px 4px #FFFFFF;
+}
+
+figcaption.angerey {
+		color: red;
 		text-shadow: 2px 2px 4px #FFFFFF;
 }
 	
