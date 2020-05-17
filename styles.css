@@ -114,20 +114,30 @@ li.inactive a:hover {
 		-webkit-transition: all .4s ease;
 }
 
-.mod {
+.mod, .guide {
 		text-decoration: none;
 }
 
-.mod {
+.mod, .guide {
 		color: lime;
 		transition: all .4s ease;
 		-webkit-transition: all .4s ease;
 }
 
-.mod:hover {
+.mod:hover, .guide:hover {
 		color: white;
 		transition: all .4s ease;
 		-webkit-transition: all .4s ease;
+}
+
+#rhci, #hci, #mhci, #fbi, #rhi, #dhci, #regi {
+		display: none;
+}
+
+li.rhc:hover+#rhci, li.hc:hover+#hci, li.mhc:hover+#mhci, li.fb:hover+#fbi, li.dhc:hover+#dhci, li.reg:hover+#regi {
+		display: inline-block;
+		z-index: 10;
+		
 }
 
 figure {
