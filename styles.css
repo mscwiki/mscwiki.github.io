@@ -56,8 +56,6 @@ ul {
 	margin: 0px;
 	padding: 0px;
 	width: 10%;
-	background-color: silver;
-	
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -65,11 +63,20 @@ ul {
 
 li a {
 	display: block;
-	color: #000;
+	color: #FFFFFF;
 	padding: 8px 16px;
 	text-decoration: none;
 	
 	margin: 0px;
+	
+	transition: all .4s ease;
+	-webkit-transition: all .4s ease;
+}
+
+li.inactive a:hover {
+	color: lime;
+	transition: all .4s ease;
+	-webkit-transition: all .4s ease;
 }
 
 .inactive {
@@ -78,15 +85,15 @@ li a {
 }
 
 .inactive:hover {
-	background-color: rgb(230,230,230);
-	
 	transition: all .4s ease;
 	-webkit-transition: all .4s ease;
 }
 
 .active {
-	background-color: white;
 	color: black;
+	text-shadow: 1px 1px lime;
+	transition: all .4s ease;
+	-webkit-transition: all .4s ease;
   
 	margin: 0px;
 }
@@ -111,8 +118,16 @@ li a {
 		text-decoration: none;
 }
 
-.mod:hover {
+.mod {
 		color: lime;
+		transition: all .4s ease;
+		-webkit-transition: all .4s ease;
+}
+
+.mod:hover {
+		color: white;
+		transition: all .4s ease;
+		-webkit-transition: all .4s ease;
 }
 
 figure {
